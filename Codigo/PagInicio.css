@@ -1,3 +1,4 @@
+ /*POSICIÓN DE LA BARRA DE NAVEGACIÓN*/
     body {
     margin: 0;
     padding: 60px 0 0 0;
@@ -8,7 +9,7 @@
     width: 100%;
               }
  
-/*Tamaño y opciones de la cabecera*/
+/*TAMAÑO Y OPCIONES DE LA CABECERA*/
     #header {
     position: fixed;
     top: 0;
@@ -62,7 +63,7 @@ nav ul li {
   font-size: 16px;
 }
   
-/*Conf letras de panel de opciones*/
+/*CONFIGURACIÓN DE LA BARRA DE NAVEGACIÓN*/
 nav ul li a {
   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 20px; 
@@ -82,13 +83,15 @@ section.Contenido {
     padding-top: 60px
 }
 
-/*Pie de Página*/
+/*PIE DE PÁGINA*/
 #footer {
       background-color: #292C44;
       position: static;
       display: inline-block;
       bottom: 0;
       width: 100%;
+      height: 100px;
+      margin-top: 134px;
       color: white;
     }   
 
