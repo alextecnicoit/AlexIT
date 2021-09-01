@@ -18,6 +18,7 @@ body {
     background-color: #333;
     font-size: 20px;
     color: #FFFFFF;
+        z-index: 10;
 }
  
     #content {
@@ -107,12 +108,22 @@ section.Contenido {
 .titulo {
     padding-top: 60px;
     text-align: center;
+    color: yellow
 }
 
-.primero {
- border-top: 2px solid #FA9400;
+/*APARTADO DE SERVICIOS*/
+.servicios {
+ /*border-top: 2px solid #FA9400;
   border-bottom: 2px solid #F70404;
-    align-items: center;
+    align-items: center; */
+    text-decoration-color: aqua;
+    background-color: black;
+}
+
+.contenidoservicios {
+    text-align: center;
+    color:yellow;
+    
 }
 /*
 ESTOS 3 APARTADOS QUEDAN SIN USO ERAN LAS ANTIGUAS LINEAS DE SEPARACION PARA LAS FOTOS Y VIDEOS DE LA BICI Y LA GUITARRA
@@ -143,3 +154,6 @@ ESTOS 3 APARTADOS QUEDAN SIN USO ERAN LAS ANTIGUAS LINEAS DE SEPARACION PARA LAS
 /Ordenadores/
 @media (min-width:1025px) {  }
 @media (min-width:1281px) {  }
+
+/*LETRAS DE EL APARTADO SERVICIOS*/
+
